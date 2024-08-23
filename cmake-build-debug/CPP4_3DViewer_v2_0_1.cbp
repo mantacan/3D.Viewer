@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPP4_3DViewer_v2_0_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP4_3DViewer_v2_0_1">
+				<Option output="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/CPP4_3DViewer_v2_0_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/_example/3Dviewer/src/backend"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/_example/3Dviewer/src/backend/tests"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/_example/3Dviewer/src/frontend/3DViewer"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/_example/3Dviewer/src/frontend/3DViewer/QtGifImage/gifimage"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/_example/3Dviewer/src/frontend/3DViewer/QtGifImage/giflib"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/lib"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/model"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP4_3DViewer_v2_0_1"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPP4_3DViewer_v2_0_1/fast">
+				<Option output="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/CPP4_3DViewer_v2_0_1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/_example/3Dviewer/src/backend"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/_example/3Dviewer/src/backend/tests"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/_example/3Dviewer/src/frontend/3DViewer"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/_example/3Dviewer/src/frontend/3DViewer/QtGifImage/gifimage"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/_example/3Dviewer/src/frontend/3DViewer/QtGifImage/giflib"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/lib"/>
+					<Add directory="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/model"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/13/../../../../include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPP4_3DViewer_v2_0_1/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/3DViewer.h">
+			<Option target="CPP4_3DViewer_v2_0_1"/>
+		</Unit>
+		<Unit filename="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/model/cordinate_processing.cpp">
+			<Option target="CPP4_3DViewer_v2_0_1"/>
+		</Unit>
+		<Unit filename="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/model/data.cpp">
+			<Option target="CPP4_3DViewer_v2_0_1"/>
+		</Unit>
+		<Unit filename="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/src/model/main.cpp">
+			<Option target="CPP4_3DViewer_v2_0_1"/>
+		</Unit>
+		<Unit filename="/home/indexsrx/Project/CPP4_3DViewer_v2.0-1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
